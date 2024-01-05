@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my_rest_api"
+version = "0.0.1"
+description = "Test REST API"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "flask",
+    "my-library",
+]
